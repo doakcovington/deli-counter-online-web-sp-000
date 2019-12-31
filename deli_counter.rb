@@ -6,7 +6,7 @@ def line(array)
     puts "The line is currently empty."
   else
     sentence = []
-    line_count = 2
+    line_count = 1
     array.each do |name|
       sentence << "#{line_count.to_s}. #{name}"
       line_count += 1
