@@ -18,5 +18,5 @@ end #end of line method
 #take_a_number method
 def take_a_number(array,name)
   array << "#{name}"
-  puts "Welcome, #{name}. You are number #{array.length+1} in line."
+  puts "Welcome, #{name}. You are number #{array.length} in line."
 end #end of take_a_number
