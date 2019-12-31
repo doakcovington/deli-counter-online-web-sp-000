@@ -20,3 +20,8 @@ def take_a_number(array,name)
   array << "#{name}"
   puts "Welcome, #{name}. You are number #{array.length} in line."
 end #end of take_a_number
+
+#now_serving method
+def now_serving
+  
+end #end of now_serving
