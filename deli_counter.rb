@@ -12,6 +12,5 @@ def line(array)
       line_count += 1
     end
     sentence.join("")
-    puts sentence
   end
 end
