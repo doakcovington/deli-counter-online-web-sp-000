@@ -11,6 +11,6 @@ def line(array)
       sentence << "#{line_count.to_s}. #{name}"
       line_count += 1
     end
-    puts sentence.join(" ")
+    puts "The line is currently: #{sentence.join(" ")}"
   end
 end
