@@ -10,7 +10,7 @@ def line(array)
     array.each do |name|
       sentence = "#{line_count.to_s}. #{name}"
       line_count += 1
+      puts sentence
     end
-    puts sentence
   end
 end
