@@ -7,7 +7,7 @@ def line(array)
   elsif array.length >= 1
     sentence = ""
     array.each do |spot,index|
-      sentence = "#{spot[index]} #{spot}"
+      sentence = "#{spot[index]}. #{spot}"
     end
     puts sentence
   end
