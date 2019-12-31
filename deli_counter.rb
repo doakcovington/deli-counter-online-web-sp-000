@@ -6,8 +6,8 @@ def line(array)
     puts "The line is currently empty."
   elsif array.length >= 1
     sentence = ""
-    array.each do |spot,index|
-      sentence = "#{index+1}. #{spot}"
+    array.each do |index,name|
+      sentence = "#{index+1}. #{name}"
     end
     puts sentence
   end
