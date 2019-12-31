@@ -7,6 +7,7 @@ def line(array)
   elsif array.length >= 1
     array.each do |number|
       array.join("#{[number]} #{number}")
+      puts array
     end
   end
 end
