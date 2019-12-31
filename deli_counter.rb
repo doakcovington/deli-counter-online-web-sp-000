@@ -8,7 +8,7 @@ def line(array)
     sentence = []
     line_count = 1
     array.each do |name|
-      sentence << "#{line_count.to_s}. #{name}"
+      sentence << "#{line_count}. #{name}"
       line_count += 1
     end
     puts "The line is currently: #{sentence.join(" ")}"
