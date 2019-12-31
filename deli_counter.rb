@@ -11,7 +11,7 @@ def line(array)
       sentence << "#{line_count.to_s}. #{name}"
       line_count += 1
     end
-    sentence.join()
+    sentence.join("")
     puts sentence
   end
 end
