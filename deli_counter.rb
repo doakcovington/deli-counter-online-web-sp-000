@@ -25,5 +25,8 @@ end #end of take_a_number
 def now_serving(array)
   if array.length == 0
     puts "There is nobody waiting to be served!"
+  else
+    puts "#{array.first}"
   end
+
 end #end of now_serving
