@@ -13,4 +13,9 @@ def line(array)
     end
     puts "The line is currently: #{sentence.join(" ")}"
   end
-end
+end #end of line method
+
+#take_a_number method
+def take_a_number(array,name)
+  puts name
+end #end of take_a_number
