@@ -6,7 +6,7 @@ def line(array)
     puts "The line is currently empty."
   elsif array.length >= 1
     array.each do |number|
-      array.join("#{[number]} #{number}")
+      array.join
       puts array
     end
   end
