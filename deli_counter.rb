@@ -4,9 +4,9 @@
 def line(array)
   if array.length == 0
     puts "The line is currently empty."
-  elsif 
+  else 
     sentence = []
-    line_count = 1
+    line_count = 2
     array.each do |name|
       sentence << "#{line_count.to_s}. #{name}"
       line_count += 1
