@@ -9,5 +9,6 @@ def line(array)
     array.each do |spot|
       sentence = "#{spot[i]} #{spot}"
     end
+    puts sentence
   end
 end
