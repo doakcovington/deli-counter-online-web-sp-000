@@ -22,6 +22,6 @@ def take_a_number(array,name)
 end #end of take_a_number
 
 #now_serving method
-def now_serving
-  
+def now_serving(array)
+  puts "#{array.first}"
 end #end of now_serving
