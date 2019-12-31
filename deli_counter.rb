@@ -27,6 +27,7 @@ def now_serving(array)
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{array.first}."
+    array.shift
   end
 
 end #end of now_serving
